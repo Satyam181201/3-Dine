@@ -14,9 +14,12 @@ const Footer: FC = () => {
                className="uppercase text-sm leading-7 font-normal text-white tracking-widest 
                md:ml-32 xl:ml-48 xl:flex">
                <div className="mt-10 mb-8 md:mt-0 xl:mb-0 xl:mr-44">
-                  <div>Marthwaite, Sedbergh<br />
-                     Cumbria</div>
-                  <div>+00 44 123 4567</div>
+                  <div>Tasty Bites Restaurant,<br />
+                        789 Spice Lane,<br />
+                        Mumbai, MH 400001,<br />
+                        India.
+                     </div>
+                  <div>+91 7765401209</div>
                </div>
 
                <div>

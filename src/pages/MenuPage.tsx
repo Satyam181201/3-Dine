@@ -1,13 +1,21 @@
 import { FC } from 'react'
 import { menuItemsData } from '../utils/_DATA'
 import MenuItem from '../components/menu/MenuItem'
+import heroBg from '../assets/homepage/hero-bg-mobile.jpg'
+import heroBgTablet from '../assets/homepage/hero-bg-tablet.jpg'
+import heroBgDesktop from '../assets/homepage/hero-bg-desktop.jpg'
+// import Button from './Buttons'
+// import Parallax from './Parallax'
+
 import { Link } from 'react-router-dom'
 
 const MunuPage: FC = () => {
    return (
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" >
+         <img src="../assets/homepage/beef-mobile@2x.jpg" alt=""/>
          <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
+            {/* <img src="src\assets\homepage\beef-mobile@2x.jpg" alt=""/> */}
                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                   Our Menu
                </h1>
