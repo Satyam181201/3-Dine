@@ -7,7 +7,7 @@ import MenuItem from '../components/menu/MenuItem'
 
 import { Link } from 'react-router-dom'
 // Import your background image
-import backgroundImage from '../assets/homepage/menu-bg-tablet.jpg';
+import backgroundImage from '../assets/homepage/menu-bg-tablet@2x.jpg';
 
 const MunuPage: FC = () => {
    return (
