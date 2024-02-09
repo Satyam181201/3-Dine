@@ -1,0 +1,188 @@
+/* custom Fonts - League Spartan */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   /* Typography */
+   html {
+      @apply font-['League_Spartan',sans-serif] 3xl:text-[1.2rem] scrollbar;
+   }
+   body {
+      @apply text-secondary-ebonyClay bg-white h-full;
+   }
+   button,
+   a {
+      @apply font-semibold text-[1.0625rem] uppercase tracking-[0.156rem] inline-block;
+   }
+   h1 {
+      @apply text-[2rem] leading-10 tracking-tighter font-light 
+      md:text-5xl xl:text-[5rem] md:leading-snug xl:leading-none;
+   }
+   h2 {
+      @apply text-[2rem] md:text-5xl leading-10 tracking-tighter font-bold;
+   }
+   h3 {
+      @apply text-xl font-bold tracking-tight;
+   }
+   p {
+      @apply text-base font-normal md:text-xl md:leading-normal;
+   }
+   /* Reset */
+   a {
+      @apply inline-block;
+   }
+   [hidden] {
+      @apply !hidden;
+   }
+}
+
+@layer components {
+   .btn.primary {
+      @apply bg-gradient-to-r from-[white_50%] to-[transparent_50%] bg-right-bottom 
+      hover:bg-left-bottom bg-2/1 border border-white active:text-white;
+   }
+   .btn.secondary {
+      @apply bg-gradient-to-r from-[theme(colors.primary.codGray)_50%] to-[white_50%] 
+      bg-left-bottom hover:bg-right-bottom bg-2/1 text-white hover:border 
+      border-primary-codGray;
+   }
+   .btn {
+      @apply w-[15.3125rem] h-16 flex-center
+      hover:text-secondary-mirage active:bg-transparent active:opacity-25 duration-500;
+   }
+   .pattern-divide {
+      @apply pt-9 md:pt-10 xl:pt-14 relative before:absolute before:top-0 
+      before:left-0 before:w-full before:h-2 before:bg-pattern-divide 
+      before:bg-no-repeat before:bg-center xl:before:bg-left;
+   }
+   /* Custom Form */
+   .booking-form {
+      @apply w-full flex flex-col;
+   }
+   .booking-form > *:not(button) {
+      @apply mb-[2.125rem];
+   }
+   .booking-form input {
+      @apply w-full pl-4 pb-4 text-xl placeholder:capitalize border-b border-b-silver 
+      outline-none autofill:!shadow-autofill;
+   }
+   .booking-form .label {
+      @apply text-xl font-normal;
+   }
+   .booking-form .inputs {
+      @apply flex gap-4 flex-wrap xs:flex-nowrap;
+   }
+   .booking-form .inputs input {
+      @apply w-18 md:w-20 last:w-22 md:last:w-24;
+   }
+   fieldset.date,
+   fieldset.time {
+      @apply md:flex justify-between items-center;
+   }
+   .booking-form .midday {
+      @apply relative;
+   }
+   .booking-form .midday input {
+      @apply w-22 md:w-24;
+   }
+   .booking-form .midday button {
+      @apply absolute top-0 left-0 w-full h-full z-10;
+   }
+   .booking-form .midday button span {
+      @apply w-5 h-5 absolute top-1 right-3
+      bg-icon-arrow bg-no-repeat bg-center -z-10;
+   }
+   .booking-form .midday ul {
+      @apply w-24 md:w-26 absolute top-[calc(100%_+_0.5rem)] 
+      left-0 z-50 bg-white shadow-2xl;
+   }
+   .booking-form .midday ul li {
+      @apply text-xl pl-10 py-3 cursor-pointer hover:bg-silver/5 transition-colors;
+   }
+   .booking-form .midday ul li[aria-selected='true'] {
+      @apply relative before:w-3 before:h-3 before:absolute before:top-1/2 before:left-4 
+      before:-translate-y-1/2 before:bg-icon-check before:bg-no-repeat before:bg-center;
+   }
+   fieldset.people {
+      @apply relative;
+   }
+   fieldset.people input[readOnly] {
+      @apply text-center font-bold tracking-tighter;
+   }
+   fieldset.people input[type='button'] {
+      @apply absolute w-4 h-6 bg-no-repeat bg-center border-none cursor-pointer active:opacity-40;
+   }
+   fieldset.people .plus {
+      @apply bg-icon-plus right-3 md:right-7;
+   }
+   fieldset.people .minus {
+      @apply bg-icon-minus left-3 md:left-7;
+   }
+   .booking-form button[type='submit'] {
+      @apply !w-full;
+   }
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+      @apply m-0 [-webkit-appearance:none];
+   }
+   input[type='number'] {
+      @apply [-moz-appearance:textfield];
+   }
+   .error input:not(#midday) {
+      @apply text-error border-b-error placeholder:text-error/50;
+   }
+   .error-msg {
+      @apply text-xxs tracking-tighter text-error;
+   }
+   label.error {
+      @apply mb-7;
+   }
+   label.error .error-msg {
+      @apply mt-3 pl-4;
+   }
+   fieldset.error .label {
+      @apply text-error;
+   }
+   /* Custom Scrollbar */
+   .scrollbar {
+      @apply [scrollbar-width:thin] 
+      [scrollbar-color:theme(colors.primary.beaver)_theme(colors.white)];
+   }
+   .scrollbar::-webkit-scrollbar {
+      @apply max-w-[0.625rem];
+   }
+   .scrollbar::-webkit-scrollbar-track {
+      @apply bg-white shadow-inner;
+   }
+   .scrollbar::-webkit-scrollbar-thumb {
+      @apply bg-primary-beaver;
+   }
+   .scrollbar::-webkit-scrollbar-thumb:hover {
+      @apply bg-primary-beaver/90;
+   }
+}
+
+@layer utilities {
+   .flex-center {
+      @apply flex items-center justify-center;
+   }
+   .active-event {
+      @apply opacity-100 text-primary-codGray relative after:absolute after:-z-10
+      after:w-12 xl:after:w-24 after:h-[0.0625rem] after:bg-primary-beaver after:bottom-0 
+      xl:after:bottom-1/2 after:left-1/2 xl:after:-left-32 after:-translate-x-1/2 
+      xl:after:translate-x-0 xl:after:-translate-y-1/2;
+   }
+   /* Animations */
+   .animate {
+      @apply ![animation-play-state:paused];
+   }
+   .animated {
+      @apply ![animation-play-state:running];
+   }
+   .animate-container {
+      @apply overflow-hidden;
+   }
+}
