@@ -1,7 +1,7 @@
 // images
-import familyGatheringImg from '../assets/homepage/family-gathering-mobile.jpg'
-import familyGatheringImgTab from '../assets/homepage/family-gathering-tablet.jpg'
-import familyGatheringImgDt from '../assets/homepage/family-gathering-desktop.jpg'
+import GatheringImg from '../assets/homepage/family-gathering-mobile.jpg'
+import GatheringImgTab from '../assets/homepage/family-gathering-tablet.jpg'
+import GatheringImgDt from '../assets/homepage/family-gathering-desktop.jpg'
 import specialEventsImg from '../assets/homepage/special-events-mobile.jpg'
 import specialEventsImgTab from '../assets/homepage/special-events-tablet.jpg'
 import specialEventsImgDt from '../assets/homepage/special-events-desktop.jpg'
@@ -15,10 +15,10 @@ import beefImgForMenu from './../assets/homepage/beef-desktop-tablet@2x.jpg'
 // Static data for events section
 export const eventsData = [
    {
-      name: 'Family Gathering',
+      name: 'Gathering',
       paragraph:
          'We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.',
-      img: [familyGatheringImg, familyGatheringImgTab, familyGatheringImgDt],
+      img: [GatheringImg, GatheringImgTab, GatheringImgDt],
    },
    {
       name: 'Special Events',

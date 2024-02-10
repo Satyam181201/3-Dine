@@ -6,9 +6,9 @@ import EventImage from './EventImage'
 import EventsList from './EventsList'
 
 const EventsSection: FC = () => {
-   const [events, setEvents] = useState('Family Gathering')
+   const [events, setEvents] = useState('Gathering')
    const changeEvents = (event: string) => setEvents(event)
-   window.addEventListener('resize', _ => setEvents('Family Gathering'))
+   window.addEventListener('resize', _ => setEvents('Gathering'))
 
    return (
       <section>

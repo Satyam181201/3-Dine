@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import { useParams } from 'react-router-dom'
 import { menuItemsData } from '../utils/_DATA'
+import backgroundImage from '../assets/homepage/ar-background.jpg';
 
 const DetailItemPage: FC = () => {
    const { id } = useParams<{ id: string }>()
@@ -8,8 +9,8 @@ const DetailItemPage: FC = () => {
    const item = menuItemsData.find(each => each.id === parseInt(id!))
 
    return (
-      <section className="text-gray-600 body-font">
-         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <section className="text-gray-600 body-font" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" >
             <div className="bg-primary-codGray p-0.5 mb-8 md:mb-0">
                <model-viewer
                   src={item?.modelGlbUrl}
