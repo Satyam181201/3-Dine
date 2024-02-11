@@ -13,6 +13,8 @@ import { IMenuItemData } from '../interfaces/index.interface'
 import gavarImgForMenu from './../assets/homepage/gavar-desktop-tablet@2x.png'
 import ladduImgForMenu from './../assets/homepage/laddu-desktop-tablet@2x.png'
 import pumkinImgForMenu from './../assets/homepage/pumkin-desktop-tablet@2x.png'
+import papadImgForMenu from './../assets/homepage/papad-desktop-tablet.png'
+import dalRiceImgForMenu from './../assets/homepage/dal_rice-desktop-tablet@2x.png'
 
 // Static data for events section
 export const eventsData = [
@@ -75,5 +77,31 @@ export const menuItemsData: IMenuItemData[] = [
          'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/pumkin.glb?v=1707632839047',
       modelUsdzUrl:
          'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/pumkin.usdz?v=1707632842626',
+   },
+   {
+      id: 4,
+      name: 'Crunchy Papad Platter',
+      category: 'Starter',
+      imgSrc: papadImgForMenu,
+      price: 29.99,
+      paragraph:
+         'Enjoy our Crunchy Papad Platter, featuring thin, crispy papads served with a variety of zesty chutneys. Perfect as a savory appetizer or accompaniment to your meal, this dish adds a delightful crunch to your dining experience.',
+      modelGlbUrl:
+         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/papad.glb?v=1707632746301',
+      modelUsdzUrl:
+         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/papad.usdz?v=1707632837732',
+   },
+   {
+      id: 5,
+      name: 'Rice & Dal Harmony',
+      category: 'Main',
+      imgSrc: dalRiceImgForMenu,
+      price: 199.99,
+      paragraph:
+         'Indulge in our comforting Dal & Rice Delight, a wholesome combination of aromatic basmati rice and flavorful lentils, simmered to perfection. Topped with sautéed onions and fresh coriander, this hearty dish offers a symphony of textures and tastes that will warm your soul with every bite. Experience the true essence of comfort food with this classic Indian favorite, crafted with love and care to delight your senses.',
+      modelGlbUrl:
+         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/dal_rice.glb?v=1707638141994',
+      modelUsdzUrl:
+         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/dal_rice.usdz?v=1707638090839',
    },
 ]
