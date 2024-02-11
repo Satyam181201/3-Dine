@@ -70,7 +70,7 @@ export const menuItemsData: IMenuItemData[] = [
       name: 'Crowned Pumpkin Mix',
       category: 'main',
       imgSrc: pumkinImgForMenu,
-      price: 23.99,
+      price: 149.99,
       paragraph:
          'Treat yourself to our Coriander Crowned Pumpkin Mix—a delightful blend of autumn flavors. Dive into tender pumpkin chunks, infused with aromatic spices that dance on your tongue with every bite. Topped with fresh coriander for a burst of freshness and beauty, this dish is a feast for both your taste buds and your eyes. Immerse yourself in the rich flavors of the season and let this dish take you on a culinary journey of pure delight.',
       modelGlbUrl:
