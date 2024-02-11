@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import HighlightItem from './HighlightItem'
 // Images
-import salmonImg from '../../assets/homepage/salmon-mobile.jpg'
-import beefImg from '../../assets/homepage/beef-mobile.jpg'
-import chocolateImg from '../../assets/homepage/chocolate-mobile.jpg'
+import gavarImgForMenu from './../../assets/homepage/gavar-desktop-tablet@2x.png'
+import ladduImgForMenu from './../../assets/homepage/laddu-desktop-tablet@2x.png'
+import pumkinImgForMenu from './../../assets/homepage/pumkin-desktop-tablet@2x.png'
 
 const HighlightItems: FC = () => {
    return (
@@ -11,22 +11,19 @@ const HighlightItems: FC = () => {
          className="mt-14 mx-auto xl:mx-0 max-w-[35.8125rem] xl:max-w-[33.75rem]
          animate animate-fade-in">
          <HighlightItem
-            imgSrc={salmonImg}
-            heading="Seared Salmon Fillet"
-            paragraph="Our locally sourced salmon served 
-            with a refreshing buckwheat summer salad."
+            imgSrc={gavarImgForMenu}
+            heading="Crunchy Okra Delight"
+            paragraph="Crispy okra seasoned with spices, served with fresh veggies for a delightful twist on Indian cuisine."
          />
          <HighlightItem
-            imgSrc={beefImg}
-            heading="Rosemary Filet Mignon"
-            paragraph="Our prime beef served to your taste 
-            with a delicious choice of seasonal sides."
+            imgSrc={ladduImgForMenu}
+            heading="Motichur Ludo Delight"
+            paragraph="Perfectly crafted motichur ladoos adorned with edible pearls for a sweet taste of nostalgia."
          />
          <HighlightItem
-            imgSrc={chocolateImg}
-            heading="Summer Fruit Chocolate Mousse"
-            paragraph="Creamy mousse combined with 
-            summer fruits and dark chocolate shavings."
+            imgSrc={pumkinImgForMenu}
+            heading="Crowned Pumpkin Mix"
+            paragraph="Tender pumpkin chunks infused with aromatic spices, topped with fresh coriander for a flavorful autumn treat."
          />
       </div>
    )
