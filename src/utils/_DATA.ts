@@ -54,42 +54,42 @@ export const menuItemsData: IMenuItemData[] = [
    },
    {
       id: 2,
-      name: 'Motichur Ludo Delight',
-      category: 'Desert',
+      name: 'ITALIAN HERB CHICKEN BRUSCJETTA',
+      category: 'Quickies',
       imgSrc: ladduImgForMenu,
-      price: 59.99,
+      price: 399,
       paragraph:
-         'Indulge in our delightful Motichur Ludo, a playful twist on a traditional favorite. Enjoy two delectable servings of motichur ladoo, each crafted to perfection with fine chickpea flour, ghee, and aromatic spices. These sweet treats are adorned with edible pearls, adding a touch of elegance to every bite. Perfect for sharing or savoring solo, our Motichur Ludo promises a nostalgic journey through the flavors of India, bringing joy and sweetness to your dining experience.',
+         "Relish the Italian Herb Chicken Bruschetta, a symphony of flavors where tender chicken, infused with Italian herbs, unites with the crispness of toasted artisan bread. Juicy tomatoes, fresh basil, and a hint of garlic are nestled atop, finished with a drizzle of extra-virgin olive oil and a balsamic glaze that whispers the secrets of the Mediterranean. Each bite is a celebration of tradition and taste, offering a nourishing experience with approximately 310 calories.\n◉ 12g of fat.\n◉ 3.2g of Fiber.\n◉ 18% of Iron.\nThis bruschetta is not just a dish; it's a journey through the heart of Italian cuisine, crafted for those who cherish the elegance of simplicity.",
       modelGlbUrl:
-         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/laddu.glb?v=1707632715921',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Chicken_bread.glb?v=1714461899816',
       modelUsdzUrl:
-         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/laddu.usdz?v=1707632719601',
+         https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Chicken_bread.usdz?v=1714461871192',
    },
    {
       id: 3,
-      name: 'Crowned Pumpkin Mix',
-      category: 'main',
+      name: 'FIERY WONTON NACHOS',
+      category: 'Quickies',
       imgSrc: pumkinImgForMenu,
-      price: 149.99,
+      price: 199,
       paragraph:
-         'Treat yourself to our Coriander Crowned Pumpkin Mix—a delightful blend of autumn flavors. Dive into tender pumpkin chunks, infused with aromatic spices that dance on your tongue with every bite. Topped with fresh coriander for a burst of freshness and beauty, this dish is a feast for both your taste buds and your eyes. Immerse yourself in the rich flavors of the season and let this dish take you on a culinary journey of pure delight.',
+         "Dive into the Fiery Wonton Nachos, a daring blend of crisp wonton chips, smothered in melted cheese and fiery jalapeños. Each nacho is a crunchy delight, topped with scallions, cilantro, and a creamy avocado crema. This spicy ensemble delivers a satisfying crunch with every bite, offering 630 calories,\n◉ 29g of fat\n◉23% iron.\n It's a perfect fusion of heat and flavor, crafted for those who love their snacks with a kick.",
       modelGlbUrl:
-         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/pumkin.glb?v=1707632839047',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Nachos.glb?v=1714462741449',
       modelUsdzUrl:
-         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/pumkin.usdz?v=1707632842626',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Nachos.usdz?v=1714462866369',
    },
    {
       id: 4,
-      name: 'Crunchy Papad Platter',
-      category: 'Starter',
+      name: 'SPAGHETTI POMODORO PASTA',
+      category: 'Italian Feast',
       imgSrc: papadImgForMenu,
-      price: 29.99,
+      price: 299,
       paragraph:
-         'Enjoy our Crunchy Papad Platter, featuring thin, crispy papads served with a variety of zesty chutneys. Perfect as a savory appetizer or accompaniment to your meal, this dish adds a delightful crunch to your dining experience.',
+         "Indulge in the timeless elegance of our *Spaghetti Pomodoro Pasta, a quintessential Italian masterpiece. Savor the twirl of spaghetti strands, bathed in a sun-kissed tomato sauce that sings with the essence of ripe tomatoes. Each forkful is a harmony of fresh basil and aromatic garlic, drizzled with a golden thread of **extra-virgin olive oil. Crowned with a sprinkle of aged Parmesan, this dish is a love letter to the simplicity and richness of Italy's culinary tradition. Each serving is a balanced symphony of nutrition, providing approximately 550 calories.\n ◉21g of fat.\n◉ 4.3g of Fiber.\n◉ 19% of Iron.",
       modelGlbUrl:
-         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/papad.glb?v=1707632746301',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/spaghetti.glb?v=1714462266092',
       modelUsdzUrl:
-         'https://cdn.glitch.me/5767c9cd-c490-463b-851a-d7521d46400c/papad.usdz?v=1707632837732',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/spaghetti.usdz?v=1714462104526',
    },
    {
       id: 5,
