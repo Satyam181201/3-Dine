@@ -63,7 +63,7 @@ export const menuItemsData: IMenuItemData[] = [
       modelGlbUrl:
          'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Chicken_bread.glb?v=1714461899816',
       modelUsdzUrl:
-         https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Chicken_bread.usdz?v=1714461871192',
+         'https://cdn.glitch.global/5767c9cd-c490-463b-851a-d7521d46400c/Chicken_bread.usdz?v=1714461871192',
    },
    {
       id: 3,
