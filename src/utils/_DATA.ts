@@ -11,9 +11,9 @@ import socialEventsImgDt from '../assets/homepage/social-events-desktop.jpg'
 import { IMenuItemData } from '../interfaces/index.interface'
 
 import gavarImgForMenu from './../assets/homepage/gavar-desktop-tablet@2x.png'
-import ladduImgForMenu from './../assets/homepage/laddu-desktop-tablet@2x.png'
-import pumkinImgForMenu from './../assets/homepage/pumkin-desktop-tablet@2x.png'
-import papadImgForMenu from './../assets/homepage/papad-desktop-tablet.png'
+import chickenBreadImgForMenu from './../assets/homepage/chicken_bread.png'
+import spaghettiImgForMenu from './../assets/homepage/spaghetti.png'
+import nachosImgForMenu from './../assets/homepage/nachos.png'
 import dalRiceImgForMenu from './../assets/homepage/dal_rice-desktop-tablet@2x.png'
 
 // Static data for events section
@@ -56,7 +56,7 @@ export const menuItemsData: IMenuItemData[] = [
       id: 2,
       name: 'ITALIAN HERB CHICKEN BRUSCJETTA',
       category: 'Quickies',
-      imgSrc: ladduImgForMenu,
+      imgSrc: chickenBreadImgForMenu,
       price: 399,
       paragraph:
          "Relish the Italian Herb Chicken Bruschetta, a symphony of flavors where tender chicken, infused with Italian herbs, unites with the crispness of toasted artisan bread. Juicy tomatoes, fresh basil, and a hint of garlic are nestled atop, finished with a drizzle of extra-virgin olive oil and a balsamic glaze that whispers the secrets of the Mediterranean. Each bite is a celebration of tradition and taste, offering a nourishing experience with approximately 310 calories.\n◉ 12g of fat.\n◉ 3.2g of Fiber.\n◉ 18% of Iron.\nThis bruschetta is not just a dish; it's a journey through the heart of Italian cuisine, crafted for those who cherish the elegance of simplicity.",
@@ -69,7 +69,7 @@ export const menuItemsData: IMenuItemData[] = [
       id: 3,
       name: 'FIERY WONTON NACHOS',
       category: 'Quickies',
-      imgSrc: pumkinImgForMenu,
+      imgSrc: nachosImgForMenu,
       price: 199,
       paragraph:
          "Dive into the Fiery Wonton Nachos, a daring blend of crisp wonton chips, smothered in melted cheese and fiery jalapeños. Each nacho is a crunchy delight, topped with scallions, cilantro, and a creamy avocado crema. This spicy ensemble delivers a satisfying crunch with every bite, offering 630 calories,\n◉ 29g of fat\n◉23% iron.\n It's a perfect fusion of heat and flavor, crafted for those who love their snacks with a kick.",
@@ -82,7 +82,7 @@ export const menuItemsData: IMenuItemData[] = [
       id: 4,
       name: 'SPAGHETTI POMODORO PASTA',
       category: 'Italian Feast',
-      imgSrc: papadImgForMenu,
+      imgSrc: spaghettiImgForMenu,
       price: 299,
       paragraph:
          "Indulge in the timeless elegance of our *Spaghetti Pomodoro Pasta, a quintessential Italian masterpiece. Savor the twirl of spaghetti strands, bathed in a sun-kissed tomato sauce that sings with the essence of ripe tomatoes. Each forkful is a harmony of fresh basil and aromatic garlic, drizzled with a golden thread of **extra-virgin olive oil. Crowned with a sprinkle of aged Parmesan, this dish is a love letter to the simplicity and richness of Italy's culinary tradition. Each serving is a balanced symphony of nutrition, providing approximately 550 calories.\n ◉21g of fat.\n◉ 4.3g of Fiber.\n◉ 19% of Iron.",
